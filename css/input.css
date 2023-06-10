@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* @font-face {
+    font-family: ;
+    src: url("/assets/fonts/") format("opentype");
+} */
+
+@layer components {
+    .limit-width {
+        @apply 2xl:max-w-5xl 2xl:mx-auto;
+    }
+}
