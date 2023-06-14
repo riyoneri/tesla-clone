@@ -4,9 +4,10 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        main: "",
-        "main-light": "",
-        "main-bold": ""
+        main: "Gotham-Book",
+        "main-light": "Gotham-Light",
+        "main-bold": "Gotham-Bold",
+        "main-medium": "Gotham-Medium"
       },
       backgroundImage: {
         
